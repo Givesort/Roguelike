@@ -6,7 +6,7 @@
 [Bb]uild
 /[Bb]uilds/
 /[Ll]ibrary/
-/[Pp]ackages/
+/[Pp]ackages/com.unity.2d.tilemap.extras/
 sysinfo.txt
 *.stackdump
 /Assets/AssetStoreTools*
