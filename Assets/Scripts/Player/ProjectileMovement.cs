@@ -15,9 +15,9 @@ public class ProjectileMovement : MonoBehaviour
         rb.AddForce(direction * projectileSpeed, ForceMode2D.Impulse);
 
         // Set projectile rotation
-        var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        Quaternion rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward);
-        projectile.rotation = rotation;
+        //var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        //Quaternion rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward);
+        //projectile.rotation = rotation;
 
     }
 }
